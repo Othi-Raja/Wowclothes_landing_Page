@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.brand-name {
+    color: #FF703D;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-left: -130px;
+}
+.main-colum1 {
+    /* background-color: #FF703D; */
+    overflow-x: visible;
+    padding-top: 130px;
+}
+.main-text1 {
+    font-size: 50px;
+}
+.main-text2 {
+    overflow-x: visible;
+    font-size: 150px;
+    margin-top: -50px;
+}
+.main-para {
+    font-size: 12px;
+    margin-top: -50px;
+    width: auto;
+}
+.main-button {
+    padding: 10px 18px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #FF703D;
+    border: 2px solid #FF703D;
+    background-color: white;
+    margin-top: -20px;
+}
+.main-button:hover {
+    background-color: #FF703D;
+    color: white;
+}
+.icon-list {
+    position: absolute;
+    gap: 20px;
+    bottom: 0;
+    right: 20%;
+    cursor: pointer;
+   
+}
+ 
+.brand-modal {
+    filter: drop-shadow(2px 2px 199px rgba(255, 137, 137, 0.5));
+}
+.brand-name:hover{
+color: #FF703D;
+cursor: pointer;
+transition: all .3s linear;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    color: #FF703D;
+}
+.cur{
+    cursor: pointer;
+}
+.social-icon1:hover{
+    transform: translateY(-3px);
+}
+.social-icon2:hover{
+    transform: translateY(-3px);
+}
+.social-icon3:hover{
+    transform: translateY(-3px);
+}
