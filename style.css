@@ -95,17 +95,17 @@
         height: 100vh;
     }
 }
-.brand-details-list{
+.brand-details-list {
     position: absolute;
     top: 25%;
     padding-left: 90px;
-   
-     
 }
-.brand-details{
-color: gray;
-font-weight: lighter;
-
+h3 {
+    color: gray;
+    font-weight: lighter;
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 /* .loader{
     position: fixed;
