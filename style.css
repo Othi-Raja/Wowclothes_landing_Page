@@ -3,6 +3,7 @@
     padding: 0;
     /* overflow: hidden; */
     font-family: "Poppins", sans-serif;
+    -webkit-user-drag: none;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -93,6 +94,18 @@
         width: 100%;
         height: 100vh;
     }
+}
+.brand-details-list{
+    position: absolute;
+    top: 25%;
+    padding-left: 90px;
+   
+     
+}
+.brand-details{
+color: gray;
+font-weight: lighter;
+
 }
 /* .loader{
     position: fixed;
